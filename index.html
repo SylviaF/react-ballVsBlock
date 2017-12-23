@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ball vs Block - Online & Free</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="fb:admins" content="fangsimin">
+    <meta property="fb:app_id" content="1767865813510755">
+    <meta property="og:title" content="Ball vs Block - Online & Free">
+    <meta property="og:description" content="Swipe your finger to guide the ball and break the bricks. Try to break as many bricks as possible to get more score!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mobj.space/games/ballVsBlock/">
+    <meta property="og:image" content="http://img.phone.baidu.com/public/uploads/store_7/0/1/c/01c226085ba46babfb86f319189ae2a3.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta property="og:site_name" content="Ball vs Block - Online & Free">
+    <link rel="apple-touch-icon" href="http://img.phone.baidu.com/public/uploads/store_7/8/5/e/85e9fa55cbcc8c6e20e54b88826ee6ff.png">
+    <link rel="icon" sizes="1024x1024" href="http://img.phone.baidu.com/public/uploads/store_7/8/5/e/85e9fa55cbcc8c6e20e54b88826ee6ff.png">
+    <!-- <link rel="stylesheet" type="text/css" href="dist/static/css/addtohomescreen.css">
+    -->
+    <!-- <script src="dist/static/js/addtohomescreen.js"></script>
+<script>
+        /* globals addToHomescreen */
+        addToHomescreen();
+        </script>
+-->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-101019791-2', 'auto');
+    ga('send', 'pageview');
+    var search = location.search;
+    var regResult = /\?(.*)/.exec(search);
+    var searchObj = {};
+    if (regResult && regResult[1]) {
+        regResult = regResult[1].split('&');
+        if (regResult) {
+            regResult.map(function (v, i) {
+                var tmp = v.split('=');
+                searchObj[tmp[0]] = tmp[1];
+            });
+            ga('send', 'event', 'fb_source', searchObj['fb_source']);
+            ga('send', 'event', 'fbs', searchObj['fbs']);
+            ga('send', 'event', 'refs', searchObj['refs']);
+        }
+    }
+    </script>
+</head>
+<body>
+    <div id="main"></div>
+    <div class="fb-like" data-share="true" data-show-faces="false"
+        data-href="https://apps.facebook.com/ball_vs_block"
+        style="width:100%;display:block;overflow:hidden;text-align:center;position: absolute;bottom: 0">
+    </div>
+    <audio id="explosionSound" preload="auto">
+        <source src="https://mobojs-d.baidu.com/public/uploads/store_3/1/5/0/15053ba0175d2f3269b3cd925a4658cf.mp3" type="audio/mp3">
+        <source src="https://mobojs-d.baidu.com/public/uploads/store_6/0/4/2/0426acc80932e34e07a7975015d1adad.ogg" type="audio/ogg"></audio>
+    <audio id="loseSound" preload="auto">
+        <source src="https://mobojs-d.baidu.com/public/uploads/store_5/9/5/4/95428e562dc6069529a1a1eff200fa0d.mp3" type="audio/mp3">
+        <source src="https://mobojs-d.baidu.com/public/uploads/store_5/c/f/c/cfc15de99573497f0796e2df56c08a2b.ogg" type="audio/ogg"></audio>
+    <audio id="backSound" loop preload="auto">
+        <source src="https://mobojs-d.baidu.com/public/uploads/store_1/4/9/e/49e652b2787cb6dadc2d1c31b30b8762.mp3" type="audio/mp3">
+        <source src="https://mobojs-d.baidu.com/public/uploads/store_3/1/1/e/11ed30c7c2f5b7ebb7af470d64d68c75.ogg" type="audio/ogg"></audio>
+    <script type="text/javascript" src="dist/static/js/main.js"></script>
+</body>
+</html>
